@@ -29,7 +29,7 @@
 
 - **学习刚体运动学 —— 如何表示刚体的$\stackrel{\text{position and orientation}}{\textbf{位姿}} $**
 
-- - $\stackrel{\text{rotation matrix}}{\text{旋转矩阵}} $ ( $=$ DCM)
+- - $\stackrel{\text{rotation matrix}}{\text{旋转矩阵}}$ ( $=$ DCM)
 
 - - $\stackrel{\text{euler angle}}{\text{欧拉角}} $
 
