@@ -17,7 +17,7 @@
 
 *第六周 &第七周(前半)：$\stackrel{\textit{visual odometry}}{\textit{视觉里程计}}$*
 
-*第七周(后半) &第八周：$\textit{后端}（\stackrel{\textit{filters and optimization }}{\textit{滤波器和优化方法}）}$*
+*第七周(后半) &第八周*：$\textit{后端}（\stackrel{\textit{filters and optimization }}{\textit{滤波器和优化方法}）}$
 
 *同时每周保持代码练习*
 
@@ -27,7 +27,7 @@
 
 *第六~八周：ORB-SLAM2源码*
 
-- **学习刚体运动学 —— 如何表示刚体的$\stackrel{\text{position and orientation}}{\textbf{位姿}} $**
+- **学习刚体运动学 —— 如何表示刚体的$\stackrel{\text{position and orientation}}{\textbf{位姿}}$**
 
 - - $\stackrel{\text{rotation matrix}}{\text{旋转矩阵}}$ ( $=$ DCM)
 
