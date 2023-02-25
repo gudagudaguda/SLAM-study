@@ -46,6 +46,4 @@ $I_{3\times 3}$。请编程实现此事。
 
 6. *一般线程方程Ax = b 有哪几种做法？你能在Eigen 中实现吗？
 
-
-
-
+[代码](../program/resolve_linear_f)
