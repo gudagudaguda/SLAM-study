@@ -1,36 +1,26 @@
 # 中天的SLAM学习之路
 
 ## TOC
-[第一周](#第一周)
+[Week 0](#week-0)
 
-### 第一周
+[Week 1](#week-1)
 
-- **明确接下来学习的内容**
+### Week 1
 
-*前五周学习数学基础，后三周学习SLAM技术的同时通过* $\stackrel{\textit{魔改}}{\textit{实践}}$ ORB-SLAM2巩固。
+#### 新的学习计划：减少基础知识，增加项目练习和文献阅读。
 
-*前三周*： $\stackrel{\textit{rigid-body kinamatics}}{\textit{刚体运动学}}$ 和 $\stackrel{\textit{Lie groups}}{\textit{李群}}$
+#### 基础知识：rigid body kinematics
 
-*第四周*： $\stackrel{\textit{image processing}}{\textit{图像处理}}$
+#### 项目实践：初见orb-slam2 
 
-*第五周*： $\stackrel{\textit{nonlinear optimization}}{\textit{非线性优化}}$
+*依赖库版本太新全是bug* 
 
-*第六周 &第七周(前半)*： $\stackrel{\textit{visual odometry}}{\textit{视觉里程计}}$
+*没有独显直连的笔记本记得插线*
 
-*第七周(后半) &第八周*： $\textit{后端}（\stackrel{\textit{filters and optimization }}{\textit{滤波器和优化方法}）}$
+#### 拓展阅读：NeRF
 
-*同时每周保持代码练习*
+*被综述一顿霍霍，感觉还挺有潜力的*
 
-*前三周：C++ Primer，每天一章*
+### Week 0
 
-*第四&五周：OpenCV，之前学过的C++库(Eigen, Sophus, Ceres, g2o)*
-
-*第六~八周：ORB-SLAM2源码*
-
-- **学习刚体运动学 —— 如何表示刚体的 $\stackrel{\text{position and orientation}}{\textbf{位姿}}$**
-
-- - $\stackrel{\text{rotation matrix}}{\text{旋转矩阵}}$ ( $=$ DCM)
-
-- - $\stackrel{\text{euler angle}}{\text{欧拉角}} $
-
-- **学习Eigen —— 用于矩阵、向量运算的C++模板库**
+#### 学习计划已更新
