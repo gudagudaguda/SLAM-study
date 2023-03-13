@@ -7,10 +7,15 @@
 故事要从这里开始讲起，
 -->
 开发环境：
+
 - 1x RTX A4000
+
 - python 3.10.8, torch 1.13.1, torchaudio 0.13.1, torchvision 0.14.1
+
 - cuda 11.6
+
 - [requirements.txt](https://raw.githubusercontent.com/zhangzhengde0225/CDNet/master/requirements.txt)
+
 <!--
 部署环境：
 - Jetson Nano 4GB A02
@@ -18,6 +23,7 @@
 - TensorRT 8.2.1
 - cuda 10.2
 -->
+
 ## 代码复现
 
 ### 训练
@@ -28,7 +34,7 @@ python train.py
 
 #### 修改代码
 
-- `requirements.txt`，里的torch, pytorch, torchvision删了，装不了旧的版本，直接用最新的就行了。
+- `requirements.txt`里的torch, pytorch, torchvision删了，装不了旧的版本，直接用最新的就行了。
 （严重怀疑作者压根没用过这个`requirements.txt`，甚至出现了两个torchvision）
 
 - `utils/datasets.py`和`utils/general.py`里有使用`np.int`（已弃用），需要替换成`np.int64`。
@@ -104,6 +110,8 @@ rect = cv2.imread("data/rect.jpg")
 ![](figs/02_0036_filename5165.jpg)
 ![](figs/02_0036_filename6533.jpg)
 ![](figs/03_0760_filename0053.jpg)
+
+修改后的代码在[GitHub](https://github.com/NekoAsakura/CDNet)。
 
 <!--
 ## Jetson Nano部署
